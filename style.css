@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+  }
+  
+  .container {
+    width: 105vw;
+    height: 120vh;
+  
+    display: grid;
+  
+    grid-template:
+      "left-menu main right-menu" 1fr
+
+      "footer footer footer"
+       50px /
+      140px 1fr 140px;
+  }
+
+
+.header {
+  grid-area: header;
+  background-color: #9d00ff;
+}
+
+  
+  
+  
+  .left-menu {
+    grid-area: left-menu;
+    background-color: 
+    #d26410b5;
+    padding: 0px
+    
+    ;
+  }
+  
+  .main {
+    grid-area: main;
+    background-color: 
+    #40ff5de1;
+text-align: center;
+
+
+  }
+  .right-menu {
+    grid-area: right-menu;
+    background-color: 
+    #efb0f0f6;
+    
+  }
+  
+  .footer {
+    grid-area: footer;
+    background-color:
+     #ffffffd4;
+  }
+  
